@@ -1,0 +1,27 @@
+Ce gichier va contenir ma reflexion
+
+1- Convertir les objets (Boites)
+1.1- Verifier les noms Italics : Les nom Italics deviennent des INTERFACES
+
+2- Lister Les Boites
+
+public class Droits
+public class Clients
+public class ClientType
+public class DroitType
+public class Individu extends Client
+public class Entreprise extends Client
+public class CodeBare
+public class Details
+public class Contact
+public class Option
+public class Produit
+
+3- Traduire Les Relations Du Poids (Cardinalite)
+
+Client OneToMany Droit
+Client OneToOne CodeBare
+
+Droit ManyToMany Produit
+
+4- Coder La Conception
