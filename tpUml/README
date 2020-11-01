@@ -1,5 +1,5 @@
 Ce gichier va contenir ma reflexion
-
+________________________________________________________
 1- Convertir les objets (Boites)
 1.1- Verifier les noms Italics : Les nom Italics deviennent des INTERFACES
 
@@ -17,11 +17,11 @@ public class Contact
 public class Option
 public class Produit
 
-3- Traduire Les Relations Du Poids (Cardinalite)
+3- Traduction de Individu, Entreprise et Detail : 
 
-Client OneToMany Droit
-Client OneToOne CodeBare
+Une entité ne doit supposement pas être en Composition avec plus qu'une autre entité à la fois
+et la relation de Individu et Entreprise me mettais malalaise. Donc, j'ai crée une etnité detail 
+propre à chacune de ses entités ( Individu ==> DetailsIndividu , Entreprise ==> DetailsEntreprise )
 
-Droit ManyToMany Produit
+4- REQUETES POSTMAN
 
-4- Coder La Conception
